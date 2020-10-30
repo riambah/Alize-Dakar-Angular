@@ -1,0 +1,309 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.reference{
+    background-color: #19994f;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 50px !important;
+}
+.text-confiance{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.carousel-inner{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.carousel-inner img {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+  }
+.text-contact{
+    margin-top: 20px;
+    color: white;
+}
+.Go{
+	display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.home{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.les_images{
+	display: flex;
+	justify-content: center;
+    margin-top: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+.les_images img{
+	height: 430px;
+    margin-right: 5px;
+    
+}
+.nav-item a:hover{
+    background-color: green;
+}
+.contact{
+    display: flex;  
+    background-color: gray; 
+    justify-content: space-between; 
+    padding: 20px; 
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.presentation{
+    display: flex;
+	margin-top: 15px;
+	padding: 15px;
+	border: 2px solid gray;
+    border-radius: 20px;
+}
+.balai{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.ouvriers2{
+    position: relative;
+    padding-right: 0;
+    padding-left: 5px;
+    
+}
+.description{
+    background-color: #f15922;
+    border-radius: 13px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    bottom: 16px;
+    z-index: 1;
+}
+.contact_us{
+    color: white;
+    background-color: #0baf4d;
+    border: 1px solid #a6dab9;
+    border-radius: 5px;
+    padding: 20px 5px;
+    text-align: center;
+    font-size: 23px;
+}
+.presentation_1{
+    background-image: url('Image/menagere1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.les_services{
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding: 40px 40px;
+    top: 260px;
+    right: 80px;
+    position: absolute;
+    float: right;
+    z-index: 3;
+}
+.confiez{
+    margin-top: 220px;
+    color: orange;
+    font-size: 2.5em;
+    margin-left: 450px;
+    
+}
+.pointforts{
+    background-image: url('Image/ouvriers3.jpg');
+    background-size: 51% 95%;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.nos-point-forts{
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 20px;
+    margin-left: 53%;
+    font-size: 17px;
+}
+.text-orange{
+    color: orange;
+    font-weight: bold;
+}
+.objectif{
+    background-image: url('Image/salon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+.charte-qualite{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin: 15px;
+}
+.illustration{
+    background-color: #5bafd9;
+    border-radius: 10px;
+}
+.a1{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    list-style-type: none;
+    content: "";
+    background-color: #707270;
+}
+.a2{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    list-style-type: none;
+    content: "";
+    background-color: #0baf4d;
+}
+.a3{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    list-style-type: none;
+    content: "";
+    background-color: #707270;
+}
+.menu-footer{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+}
+.menu-footer li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-left: 15px;
+    text-align: center;
+    padding-right: 15px;
+}
+.menu-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.menu-footer a:hover{
+    color: green;
+}
+#ref-block {
+    display: none;
+}
+/*.title-pointfort{
+    margin-top: 200px;
+    width: 58.33%;
+    float: right;
+}*/
+@media only screen and (max-width: 991px){
+    body{
+        margin: 10px;
+    }
+    .container{
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+    .appareils1, .ouvriers_2, .balai {
+        display: none;
+    }
+    .bordure{
+        border-left: none !important;
+    }
+    .contact_1{
+        font-size: 15px !important;
+    }
+    .img-contact{
+        display: none;
+    }
+    .description{
+        position: relative;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fig_experience{
+        font-size: 10px !important;
+        right: 10px !important;
+        text-align: center;
+    }
+    .presentation{
+        text-align: center;
+    }
+    .presentation_1{
+        display: block;
+        background-image: none !important;
+    }
+    .confiez{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .pointforts{
+        background-image: none;
+    }
+    .nos-point-forts{
+        margin-left: 0;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .les_services{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('Image/menagere1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        right: 0;
+        top: 0;
+    }
+    .services_2{
+        background-color: white;
+        opacity: 0.8;
+        padding: 10px;
+    }
+    .footer-responsive{
+        margin-left: 25% !important;
+        text-align: center;
+    }
+    .menu-footer{
+        text-align: center;
+    }
+  }
